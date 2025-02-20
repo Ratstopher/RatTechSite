@@ -8,8 +8,8 @@
             "name": "Launch Chrome",
             "type": "chrome",
             "request": "launch",
-            "file": "${workspaceFolder}/ratproject.html",
-            "webRoot": "${workspaceFolder}",
+            "file": "${workspaceFolder}/public/index.html",
+            "webRoot": "${workspaceFolder}/public",
             "runtimeArgs": ["--remote-debugging-port=9222"]
         }
     ]
