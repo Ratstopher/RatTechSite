@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Projects - Rat Tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><a href="index.html">RAT TECH</a></h1>
+            <ul>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects-hero">
+            <h1>My Projects</h1>
+            <p>A collection of my latest work and experiments</p>
+        </section>
+
+        <section class="projects-grid-container">
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="security">Security</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card" data-category="web security">
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="Project Screenshot">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/yourusername/project1" target="_blank" class="github-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                                <a href="https://demo-link.com" target="_blank" class="demo-link">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Secure Chat Application</h3>
+                        <p>End-to-end encrypted chat application with real-time messaging capabilities.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>WebSocket</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card" data-category="security">
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="Project Screenshot">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/yourusername/project2" target="_blank" class="github-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                                <a href="https://demo-link.com" target="_blank" class="demo-link">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Network Security Scanner</h3>
+                        <p>Advanced network vulnerability scanner with automated reporting.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Docker</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rat Tech. All rights reserved.</p>
+    </footer>
+
+    <script src="js/projects.js"></script>
+</body>
+</html> 
